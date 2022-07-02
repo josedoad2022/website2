@@ -1,0 +1,1 @@
+$(document).ready((function(){$("#divAdLeft").sticky({topSpacing:40}),$("#divAdRight").sticky({topSpacing:40})})),$(document).scroll((function(){$(window).scrollTop()>=210?$(".pos-vi").css("display","block"):$(".pos-vi").css("display","none")})),$(document).ready((function(){$(".scrollup").click((function(){return $("html, body").animate({scrollTop:0},600),!1}))}));
